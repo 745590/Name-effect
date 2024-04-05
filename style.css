@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 600px;
+    font-size: 50px;
+    color: white;
+    translate: 0% 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  span{
+    position: relative;
+
+  }
+  @keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .blink1 {
+    animation: blink 2s ease-in-out;
+  }
+  .blink2 {
+    animation: blink 2.5s ease-in-out;
+  }
+  .blink3 {
+    animation: blink 2.8s ease-in-out;
+  }
+  .blink4 {
+    animation: blink 3.2s ease-in-out;
+  }
+  .blink5 {
+    animation: blink 3.5s ease-in-out;
+  }
+  .blink6 {
+    animation: blink 3.8s ease-in-out;
+  }
+  .blink7 {
+    animation: blink 4.2s ease-in-out;
+  }
+  .blink8 {
+    animation: blink 8s ease-in-out;
+  }
